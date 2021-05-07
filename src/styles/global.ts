@@ -37,6 +37,15 @@ const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smothing: grayscale;
   }
 
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
   ${({ theme }) => css`
     html {
       font-size: 62.5%;

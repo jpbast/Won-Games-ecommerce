@@ -44,6 +44,7 @@ export const Icons = styled.div`
   img {
     width: 2rem;
     height: 1.835rem;
+    cursor: pointer;
   }
   ${({ theme }) => css`
     span {

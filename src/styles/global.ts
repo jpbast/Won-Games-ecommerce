@@ -46,6 +46,14 @@ const GlobalStyles = createGlobalStyle`
     color: inherit;
   }
 
+  button, input {
+    border: none;
+  }
+
+  button:focus, input:focus {
+    outline: none;
+  }
+
   ${({ theme }) => css`
     html {
       font-size: 62.5%;
